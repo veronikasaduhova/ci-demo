@@ -1,0 +1,16 @@
+{
+  "name": "ci-demo",
+  "version": "1.0.0",
+  "description": "CI demo project",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint app.js",
+    "lint:html": "htmlhint index.html"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.0",
+    "globals": "^17.5.0",
+    "htmlhint": "^1.1.4"
+  }
+}
